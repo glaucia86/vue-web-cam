@@ -4,7 +4,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
-  entry: './demo/src/main.js',
+  entry: './demo/src/app.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/',
